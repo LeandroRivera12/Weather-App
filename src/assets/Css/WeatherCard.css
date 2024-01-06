@@ -135,7 +135,8 @@
 .text-city{
     position: absolute;
     bottom: 8px;
-    left: 0;
+    left: 2px;
+    font-size: 16px;
     transition: all 0.3s ease;
     color: #fff;
 }
@@ -143,8 +144,8 @@
 .search-form input:focus + .lbl-search .text-city,
 .search-form input:valid + .lbl-search .text-city{
     transform: translateY(-150%);
-    font-size: 14px;
-    color: white;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
 }
 
 .search-form button{
@@ -159,9 +160,12 @@
     color: white;
     padding: .5em 2em;
     border-radius: .8em;
-    background-color: rgba(15, 15, 15, 0.6);
     transition: .3s ease;
 
+}
+
+.btn-search{
+    background-color: rgba(15, 15, 15, 0.6);
 }
 
 .search-form button:hover{
